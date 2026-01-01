@@ -1,4 +1,4 @@
-# Syzygy Manager v1.0 ♟️
+# Syzygy Manager v1.0
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -35,7 +35,7 @@ Unlike simple downloaders, this manager features **Canonical Sorting logic**, en
 ## 📥 Installation
 
 ### Option 1: Run the Executable (Windows Only)
-Download the latest `SyzygyManager.exe` from the [Releases page](../../releases) and run it. No Python installation required.
+Download the latest `Syzygy Manager.exe` from the [Releases page](../../releases) and run it. No Python installation required.
 
 ### Option 2: Run from Source (All Platforms)
 1.  Install [Python 3](https://www.python.org/).
