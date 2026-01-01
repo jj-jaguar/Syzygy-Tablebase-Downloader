@@ -22,6 +22,16 @@ Unlike simple downloaders, this manager features **Canonical Sorting logic**, en
 * **Multi-Mirror Support:** Built-in support for **Lichess** (Fastest/Global) and **Sesse** (Backup).
 * **Auto-Update:** Automatically notifies you when a new version is released.
 
+## ❓ FAQ: Why not just use Torrents?
+
+While BitTorrent is great for many things, it struggles with Syzygy Tablebases for three main reasons:
+
+1.  **The Seeding Problem:** The full 7-man dataset is **~17 TB**. Almost nobody has enough spare storage to seed this 24/7. As a result, 7-man torrents often die (0 seeds) or become incredibly slow.
+2.  **Granularity:** Torrents are usually packaged as massive single files. If you only want to study one specific endgame (e.g., Rook vs. Bishop), Syzygy Manager lets you download *just* those files immediately, whereas a torrent often forces you to load massive metadata or download unwanted chunks.
+3.  **Speed & Reliability:** This tool uses enterprise-grade mirrors (Lichess/Sesse) which are typically much faster and more reliable than random peer-to-peer connections.
+
+**Syzygy Manager brings the best features of torrents (Resume, Verification, Queueing) to the reliability of Direct HTTP.**
+
 ## 📸 Screenshots
 
 | Generation Selection | Mirror Selection |
